@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: black;}
+body{
+  font-family: 'Pretendard-Regular';
+  font-size: 14px;
+  color: #4e5150;
+}
+/*header*/
+header{
+  width: 1320px; 
+  margin: auto;
+  position: relative;
+  padding-bottom: 60px;
+  margin-top: 10px;
+}
+.menu{
+  position: absolute;
+  top: 60px;
+  left: 55%;
+}
+.menu> li{
+  float: left;
+  position: relative;
+}
+.menu> li> a{
+  padding-left: 20px;
+  font-family: 'IM Fell DW Pica';
+  font-size: 22px;
+  color: #4e5150;
+  font-weight: bold;
+}
+.menu> li> a:hover{
+  color: #cfcfd3;
+}
+.icon{
+  position: absolute;
+  top: 60px;
+  left: 94%;
+}
+.icon li{
+  float: left;
+}
+.icon li a{
+  padding-left: 8px;
+}
+.icon li a:hover{
+  opacity: 0.4;
+}
+/*submenu*/
+.sub_menu a{
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'IM Fell English SC';
+  color: #4e5150;
+  font-size: 18px;
+}
+.sub_menu a:hover{
+  color: #cfcfd3;
+}
+.sub_menu{
+  display: none;
+  position: absolute;
+  width: 120%;
+}
+.menu li:hover .sub_menu{
+  display: block;
+}
+/*submenu*/
+/*header*/
+h1{
+  font-family: 'IM FELL DW Pica';
+  text-align: center;
+  padding-top: 25px;
+  font-size: 35px;
+}
+#community{
+  background: url('images/community_bg.jpg') no-repeat;
+  height: 95px;
+}
+.btn{
+  display: block;
+  text-align: center;
+  height: 170px;
+  border-bottom: 1px dashed #4e5150;
+}
+.btn li{
+  float: left;
+  background-color: #dad3cc;
+  width: 120px;
+  height: 45px;
+  border-radius: 28px;
+  margin-top: 70px;
+  margin-right: 50px;
+}
+.btn li:nth-child(1){
+  position: absolute;
+  left: 30%;
+}
+.btn li:nth-child(2){
+  position: absolute;
+  left: 60%;
+}
+h2{
+  margin-top: 60px;
+  text-align: center;
+}
+.a1{
+  color: #fffffd;
+  font-size: 20px;
+  font-family: 'IM FELL DW Pica';
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+.a2{
+  color: #fffffd;
+  font-size: 20px;
+  font-family: 'IM FELL DW Pica';
+  position: absolute;
+  left: 17%;
+  top: 25%;
+}
+.btn li:hover{
+  background-color: #4e5150;
+}
+/*review_inner*/
+.review_inner{
+  width: 1320px;
+  margin: auto;
+  height: 1300px;
+  margin-top: 70px;
+}
+table{
+  width: 1000px;
+  border-collapse: collapse;
+  margin: auto;
+  position: relative;
+}
+.l1{
+  border-top: 1px solid #171616;
+}
+td{
+  border-bottom: 1px solid #171616;
+  padding: 20px;
+  padding-left: 40px;
+}
+.t1{
+  line-height: 30px;
+}
+.t2{
+  margin-left: 30px;
+}
+.k1{
+  font-size: 13px;
+  margin-left: 20px;
+}
+.k2{
+  padding-top: 30px;
+}
+.list{
+  background-color: #4e5151;
+  width: 110px;
+  margin-left: 1055px;
+  margin-top: 25px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+.list a{
+  font-size: 14px;
+  color: #fffffd;
+  text-align: center;
+  display: block;
+}
+.list:hover{
+  background-color: #dad3cc;
+}
+.prev td:nth-child(1){
+  width: 10px;
+}
+.prev a{
+  color: #171616;
+}
+/*review_inner*/
+/*Top botton*/
+.top{
+  position:fixed; 
+  bottom:50px; 
+  right:50px; 
+  display:none;
+  z-index: 3;
+}
+.top img{
+  width: 70%;
+}
+/*Top botton*/
+/*footr*/
+#footer{
+  background: url('footer/footerbg.jpg')
+  no-repeat;
+  height: 286px;
+  margin-top: 500px;
+  position: relative;
+  bottom: 0;
+  margin-top: -5px;
+}
+.footer_inner{
+  width: 1320px;
+  margin: auto;
+  padding-top: 90px;
+  position: relative;
+}
+.f1, .f2{
+  font-family: 'IM Fell English SC', serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #fffffd;
+  margin-top: -20px;
+}
+.f2{
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.f3{
+  font-family: 'Pretendard-Regular';
+  color: #fffffd;
+  font-size: 14px;
+}
+.footer_center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -245px;
+}
+.footer_right{
+  position: absolute;
+  right: 0;
+  top: 40%;
+  width: 300px;
+}
+.r1{
+  float: right;
+}
+.r1 li{
+  float: left;
+}
+.r1 li a{
+  font-family: 'Pretendard-Regular';
+  color: #fffffd;
+}
+.r1 li a:hover{
+  opacity: 0.5;
+}
+.footer_right_icon{
+  position: absolute;
+  right: 0;
+  top: 90%;
+}
+.footer_icon{
+  float: right;
+}
+.footer_icon li{
+  float: left;
+  padding-left: 10px;
+}
+.r1 li a{
+  font-family: 'Pretendard-Regular';
+}
+.facebook:hover{
+  background: url(footer/facebook_hover.png) no-repeat
+  100% 0%;
+}
+.insta:hover{
+  background: url(footer/insta_hover.png) no-repeat
+  100% 0%;
+}
+.twitter:hover{
+  background: url(footer/twitter_hover.png) no-repeat
+  100% 0%;
+}
+.youtube:hover{
+  background: url(footer/youtube_hover.png) no-repeat
+  100% 0%;
+}
+/*footer*/
